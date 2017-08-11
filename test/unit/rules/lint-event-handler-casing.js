@@ -9,7 +9,7 @@ generateRuleTests({
 
   good: [
     '{{my-component onClick=(action fooAction)}}',
-    '{{my-component onKeyDown=(action fooAction)}}',
+    '{{my-component onKeyDown=(action fooAction) content=content}}',
     {
       config: 'lowercase',
       template: '{{my-component onclick=(action fooAction)}}',
